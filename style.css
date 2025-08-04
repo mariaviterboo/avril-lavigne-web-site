@@ -2,3 +2,14 @@ body{
     color: black;
     background: pink;
 }
+
+header {
+    border-bottom: solid 1px black;
+}
+a {
+    cursor: pointer; /* Mãozinha para links */
+  }
+  
+  div {
+    cursor: url(caminho/para/imagem.cur), auto; /* Cursor personalizado */
+  }
