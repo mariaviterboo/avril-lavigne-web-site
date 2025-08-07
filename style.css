@@ -1,15 +1,10 @@
 body{
     color: black;
     background: pink;
+    margin:0px;
 }
 
 header {
     border-bottom: solid 1px black;
+    padding:20px;
 }
-a {
-    cursor: pointer; /* Mãozinha para links */
-  }
-  
-  div {
-    cursor: url(caminho/para/imagem.cur), auto; /* Cursor personalizado */
-  }
