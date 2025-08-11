@@ -7,4 +7,12 @@ body{
 header {
     border-bottom: solid 1px black;
     padding:20px;
+    font-size:25px;
+}
+
+section {
+    background: rgb(157,97,108);
+    padding-bottom: 80px;
+    padding-top: 80px;
+
 }
