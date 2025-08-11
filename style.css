@@ -2,6 +2,7 @@ body{
     color: black;
     background: pink;
     margin:0px;
+    font-family: "DM Serif Text", serif;
 }
 
 header {
@@ -14,5 +15,14 @@ section {
     background: rgb(157,97,108);
     padding-bottom: 80px;
     padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
 
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
 }
