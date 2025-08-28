@@ -1,18 +1,18 @@
-body{
+body {
     color: black;
     background: pink;
-    margin:0px;
+    margin: 0px;
     font-family: "DM Serif Text", serif;
 }
 
 header {
     border-bottom: solid 1px black;
-    padding:20px;
-    font-size:25px;
+    padding: 20px;
+    font-size: 25px;
 }
 
 section {
-    background: rgb(157,97,108);
+    background: rgb(157, 97, 108);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -29,4 +29,19 @@ h1 {
 
 p {
     font-size: 20px;
+}
+
+img {
+    height: 300px;
+}
+
+.categoria-músicas {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
 }
