@@ -3,15 +3,16 @@ body {
     background: pink;
     margin: 0px;
     font-family: "DM Serif Text", serif;
+    margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px rgb(216, 112, 147);
     padding: 20px;
     font-size: 25px;
 }
 
-section {
+.chamada {
     background: rgb(157, 97, 108);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -31,17 +32,28 @@ p {
     font-size: 20px;
 }
 
-img {
-    height: 300px;
-}
-
 .categoria-músicas {
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
 
-section {
+.categoria {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-músicas img {
+    opacity: 0.5;
+    height: 300px;
+}
+
+.categoria-músicas img:hover{
+    opacity: 1.0;
+    border: 1px solid black;
+}
+
+.categoria h2{
+    color: rgb(216, 112, 147);
 }
